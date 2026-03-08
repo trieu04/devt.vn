@@ -1,0 +1,58 @@
+export const tools = [
+  {
+    id: 'base64',
+    name: 'Base64 Encoder',
+    description: 'Encode and decode text to/from Base64 format instantly.',
+    icon: '🔐',
+    tags: ['encoding', 'text'],
+  },
+  {
+    id: 'color',
+    name: 'Color Converter',
+    description: 'Convert between HEX, RGB, HSL color formats with live preview.',
+    icon: '🎨',
+    tags: ['design', 'color'],
+  },
+  {
+    id: 'timer',
+    name: 'Countdown Timer',
+    description: 'Set a precise countdown timer with alarm sound.',
+    icon: '⏱️',
+    tags: ['productivity', 'time'],
+  },
+  {
+    id: 'lorem',
+    name: 'Lorem Ipsum',
+    description: 'Generate placeholder text in various lengths.',
+    icon: '📝',
+    tags: ['text', 'design'],
+  },
+  {
+    id: 'json',
+    name: 'JSON Formatter',
+    description: 'Prettify and validate JSON data with syntax highlighting.',
+    icon: '⚙️',
+    tags: ['dev', 'data'],
+  },
+  {
+    id: 'hash',
+    name: 'Text Hasher',
+    description: 'Generate SHA-256 hash from any text string.',
+    icon: '🔑',
+    tags: ['security', 'dev'],
+  },
+  {
+    id: 'qr',
+    name: 'QR Generator',
+    description: 'Generate QR codes from any URL or text.',
+    icon: '📱',
+    tags: ['utility', 'image'],
+  },
+  {
+    id: 'diff',
+    name: 'Text Diff',
+    description: 'Compare two texts and highlight the differences.',
+    icon: '🔍',
+    tags: ['dev', 'text'],
+  },
+];
